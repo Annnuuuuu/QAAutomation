@@ -1,0 +1,41 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-10-23T08:50:59.338Z",
+        "line": 4,
+        "name": "Add Fund",
+        "description": "",
+        "id": "icapequity-feature-file;add-fund",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 17977492800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user opens application and enters userName and password",
+            "match": {
+              "location": "stepDefinitions.ICapEquityStepDefinition.user_opens_application_and_enters_userName_and_password()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@iCapEquity_AddFund"
+          }
+        ]
+      }
+    ],
+    "name": "iCapEquity feature file",
+    "description": "",
+    "id": "icapequity-feature-file",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/iCapEquity.feature",
+    "tags": []
+  }
+]
